@@ -34,20 +34,21 @@
 
     &__img{
         margin: 0 auto;
-        height: 400px;
+        height: 450px;
         display: block;
     }
 
-    @media (max-width: 640px){
+    @media (max-width: 680px){
         padding: 40px 0;
         &__img{
-            height: 120px;
+            height: 160px;
         }
 
         &__text{
-            font-size: 22px;
+            font-size: 24px;
             line-height: 24px;
             margin: 24px 0;
+            padding: 8px;
         }
     }
 }
